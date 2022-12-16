@@ -10,6 +10,8 @@ public class IsPalindrome {
         String word="eyedipadanadapideye";
 
         String reverseWord="";
+        
+        boolean isPalindrome;
 
         for(int i=word.length()-1; i>=0;i--){
 
@@ -17,7 +19,11 @@ public class IsPalindrome {
 
         }System.out.println(reverseWord);
 
-        boolean isPalindrome=word.equalsIgnoreCase(reverseWord);
+        if(word.equalsIgnoreCase(reverseWord)){
+                isPalindrome=true;
+            }else{
+                isPalindrome=false;
+            }
 
         System.out.println("isPalindrome = " + isPalindrome);
 
