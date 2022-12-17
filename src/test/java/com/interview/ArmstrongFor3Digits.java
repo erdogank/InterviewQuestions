@@ -1,6 +1,6 @@
 package com.interview;
 
-public class Armstrong {
+public class ArmstrongFor3Digits {
 
     public static void main(String[] args) {
 
