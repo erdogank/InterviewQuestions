@@ -12,6 +12,7 @@ public class ArmstrongAlternativeSolution {
         // we will use number of digit to calculate the power value of each digit
         int digit = 0;
         int check=number;
+
         while(check!=0){
             check=check/10;
             digit++;
