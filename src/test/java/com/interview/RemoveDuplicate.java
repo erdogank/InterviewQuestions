@@ -20,7 +20,7 @@ public class RemoveDuplicate {
 
             }
         }
-
+            System.out.println("newWord = " + newWord);
 
     }
 }
