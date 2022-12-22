@@ -36,10 +36,11 @@ public class AllZeroesToTheEnd {
 //
 //
 //        System.out.println(Arrays.toString(reverse));
+
 /*
         for (int i = arr.length-1,j=0; i >=0 ; i--,j++) {
            reverse [j] = arr[i];
         }
         System.out.println(Arrays.toString(reverse));//[8, 5, 3, 2, 0, 0, 0]*/
     }
-}
+
