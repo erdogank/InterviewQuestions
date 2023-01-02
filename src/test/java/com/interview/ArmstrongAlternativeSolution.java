@@ -24,12 +24,7 @@ public class ArmstrongAlternativeSolution {
             sum+=Math.pow((check%10),digit);//Math.pow is a method from Math class to calculate the power of numbers
             check=check/10;
         }
-        if(sum==number){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return sum == number;
 
 
     }
