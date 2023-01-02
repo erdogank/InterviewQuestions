@@ -17,7 +17,7 @@ public class AllZeroesToTheEnd {
 
                 zeroToEndArr[j]=arr[i];
             }
-            else (arr[i]==0){
+            else if(arr[i]==0){
                 j--;
                 continue;
             }
