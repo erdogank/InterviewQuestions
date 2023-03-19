@@ -37,7 +37,7 @@ public class CountEachWordArrayList {
 
 
 
-            nameslist.removeAll(Collections.singleton(temp));//we remove the first word and all the repeatings form the list
+            nameslist.removeAll(Collections.singleton(temp));//we remove the first word and all the repeating's from the list
             count=0; //reset the count
             temp=""; //reset the temp
         }
